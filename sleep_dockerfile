@@ -1,0 +1,4 @@
+FROM centos
+COPY ./sleep.sh /tmp/sleep.sh
+RUN chmod 777 /tmp/sleep.sh
+CMD /tmp/sleep.sh
